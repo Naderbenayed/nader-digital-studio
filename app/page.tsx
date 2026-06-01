@@ -27,28 +27,31 @@ export default function Home() {
               Studio digital pour marques ambitieuses
             </p>
             <h1 className="mt-7 text-4xl font-black leading-[1.02] text-white sm:text-6xl lg:text-7xl">
-              Des sites, contenus et identités digitales qui donnent envie de vous choisir.
+              Transformez votre présence digitale en un système clair, premium et prêt à convertir.
             </h1>
             <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-300">
-              Nader Digital Studio conçoit des expériences premium pour entrepreneurs,
-              PME et marques personnelles : site web, landing page, social media,
-              vidéos courtes et direction digitale.
+              Nader Digital Studio aide les dirigeants, entrepreneurs et PME à clarifier
+              leur offre, renforcer leur image et générer plus de demandes qualifiées grâce
+              à un site, des contenus et une direction digitale cohérents.
             </p>
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
               <Link
                 href="/contact"
                 className="inline-flex h-12 items-center justify-center gap-2 rounded-xl bg-[#d8b76a] px-6 text-sm font-black text-[#071023] transition hover:bg-[#f1d98e]"
               >
-                Demander un devis
+                Demander une estimation
                 <ArrowRight size={18} aria-hidden="true" />
               </Link>
               <Link
                 href="/portfolio"
                 className="inline-flex h-12 items-center justify-center rounded-xl border border-white/15 px-6 text-sm font-black text-white transition hover:bg-white/10"
               >
-                Voir le portfolio
+                Voir les réalisations
               </Link>
             </div>
+            <p className="mt-4 text-sm font-bold text-slate-400">
+              Réponse sous 24h avec une direction claire pour votre projet.
+            </p>
           </MotionSection>
 
           <MotionSection className="relative">

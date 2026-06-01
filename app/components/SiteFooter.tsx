@@ -7,8 +7,8 @@ export function SiteFooter() {
     <footer className="border-t border-white/10 bg-[#050914] px-6 py-12 text-white lg:px-8">
       <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-[1.2fr_0.8fr_0.8fr]">
         <div>
-          <Link href="/" className="flex items-center gap-3" aria-label="Nader Digital Studio">
-            <span className="grid h-10 w-10 place-items-center rounded-xl bg-[#8b5cf6] text-sm font-black">
+          <Link href="/" className="flex items-center gap-3">
+            <span className="grid h-10 w-10 place-items-center rounded-xl bg-[#7c3aed] text-sm font-black">
               ND
             </span>
             <span className="font-black uppercase tracking-[0.18em]">
@@ -49,7 +49,7 @@ export function SiteFooter() {
           </div>
         </div>
       </div>
-      <p className="mx-auto mt-10 max-w-7xl text-sm text-slate-500">
+      <p className="mx-auto mt-10 max-w-7xl text-sm text-slate-400">
         © 2026 Nader Digital Studio. Tous droits réservés.
       </p>
     </footer>

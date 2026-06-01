@@ -14,7 +14,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-[#050914]/86 backdrop-blur-xl">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
         <Link href="/" className="flex items-center gap-3" onClick={() => setIsOpen(false)}>
-          <span className="grid h-10 w-10 place-items-center rounded-xl bg-[#8b5cf6] text-sm font-black text-white shadow-lg shadow-[#8b5cf6]/30">
+          <span className="grid h-10 w-10 place-items-center rounded-xl bg-[#7c3aed] text-sm font-black text-white shadow-lg shadow-[#7c3aed]/30">
             ND
           </span>
           <span className="hidden text-sm font-black uppercase tracking-[0.18em] text-white sm:inline">
