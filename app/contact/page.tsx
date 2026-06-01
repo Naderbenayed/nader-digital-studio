@@ -15,9 +15,9 @@ export default function ContactPage() {
             />
             <div className="mt-10 grid gap-4">
               {[
-                ["Email", "hello@nader.digital", Mail],
-                ["WhatsApp", "+33 6 00 00 00 00", MessageCircle],
-                ["Appel découverte", "Créneau sur demande", Phone],
+                ["Email", "benayednader4@gmail.com", Mail],
+                ["WhatsApp", "+33 6 44 72 72 88", MessageCircle],
+                ["Appel découverte", "+33 6 44 72 72 88", Phone],
               ].map(([label, value, Icon]) => (
                 <div className="flex items-center gap-4 rounded-2xl border border-white/10 bg-white/[0.06] p-5" key={label as string}>
                   <span className="grid h-12 w-12 place-items-center rounded-xl bg-[#8b5cf6]/18 text-[#d8b76a]">

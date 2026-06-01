@@ -37,10 +37,10 @@ export function SiteFooter() {
             Contact
           </h3>
           <div className="mt-5 flex gap-3">
-            <a className="grid h-10 w-10 place-items-center rounded-xl bg-white/10 text-white transition hover:bg-[#8b5cf6]" href="mailto:hello@nader.digital" aria-label="Email">
+            <a className="grid h-10 w-10 place-items-center rounded-xl bg-white/10 text-white transition hover:bg-[#8b5cf6]" href="mailto:benayednader4@gmail.com" aria-label="Email">
               <Mail size={18} aria-hidden="true" />
             </a>
-            <a className="grid h-10 w-10 place-items-center rounded-xl bg-white/10 text-white transition hover:bg-[#8b5cf6]" href="https://www.instagram.com/" aria-label="Instagram">
+            <a className="grid h-10 w-10 place-items-center rounded-xl bg-white/10 text-white transition hover:bg-[#8b5cf6]" href="https://wa.me/33644727288" aria-label="WhatsApp">
               <Send size={18} aria-hidden="true" />
             </a>
             <a className="grid h-10 w-10 place-items-center rounded-xl bg-white/10 text-white transition hover:bg-[#8b5cf6]" href="https://www.linkedin.com/" aria-label="LinkedIn">
